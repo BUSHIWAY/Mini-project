@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" contendevi ini">
+    <title>Students Management</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h2 align="center">Student Management</h2><br>
+    <table class="Adding">
+        <tbody>
+            <tr>
+                <td id="Error_text" class="error"></td>
+            </tr>
+            <tr>
+                <td class="text">Name :</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="Name" placeholder="Enter your name">
+            </tr>
+            <tr>
+                <td class="text">Grade :</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="Grade" placeholder="Enter your grade">
+                </td>
+            <tr>
+                <td align="center"><button type="button" id="add">Add Student</button></td>
+            </tr>
+        </tbody>
+    </table><br><br><br>
+    <table class="query">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="Data" class="Data"></tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>

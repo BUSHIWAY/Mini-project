@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Submitting*/
+.Adding {
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;
+    min-width: 400px;
+    border: 1px solid #dddd;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+}
+.Adding .error {
+    padding: 12px 15px;
+}
+.Adding .text {
+    padding: 7px 6px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Adding input {
+    width: 98%;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #dddd;
+    border-radius: 5px 5px 5px 5px;
+}
+.Adding button { 
+    width: 98%;
+    padding: 7px;
+    margin-top: 20px;
+    background-color: green;
+    text-align: center;
+    border: 1px solid #dddd;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+}
+
+.Adding input:focus{
+    outline-color: #39ccd6cb;
+    outline: width 100px;
+    display: inline-block;
+    border: 3xpx solid #39ccd6cb;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.Adding button:focus {
+    border: 2px solid #2cd83bdd;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*Data Table*/
+.query {
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;
+    min-width: 400px;
+    border-collapse: collapse;
+}
+.query thead tr {
+    text-align: left;
+    font-weight: bold;
+}
+.query th,
+.query td {
+    padding: 9px 7px;
+    border-bottom: 1px groove #d6d5d5dd; 
+}
+.query .Data tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
